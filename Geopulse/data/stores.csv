@@ -1,0 +1,21 @@
+StoreID,StoreName,StoreCategory,Latitude,Longitude,Address,City,Neighborhood,OpeningTime,ClosingTime,StoreAreaSqFt,IsActive
+STR0001,Central Coffee,Coffee Shop,17.676464,83.238081,Simulated Retail Location 1,Visakhapatnam,Zone-9,09:00,22:00,4982,True
+STR0002,Urban Cafe,Restaurant,17.720941,83.255901,Simulated Retail Location 2,Visakhapatnam,Zone-2,10:00,20:00,3489,True
+STR0003,City Mart,Restaurant,17.698309,83.204566,Simulated Retail Location 3,Visakhapatnam,Zone-9,09:00,20:00,2341,True
+STR0004,Fresh Basket,Fashion,17.712621,83.208137,Simulated Retail Location 4,Visakhapatnam,Zone-1,09:00,21:00,2328,True
+STR0005,Style Hub,Fashion,17.682273,83.216064,Simulated Retail Location 5,Visakhapatnam,Zone-8,10:00,22:00,2380,True
+STR0006,Fashion Point,Electronics,17.664979,83.193658,Simulated Retail Location 6,Visakhapatnam,Zone-8,09:00,22:00,4163,True
+STR0007,Tech World,Coffee Shop,17.691167,83.188894,Simulated Retail Location 7,Visakhapatnam,Zone-8,08:00,20:00,1945,True
+STR0008,Smart Electronics,Restaurant,17.651905,83.216556,Simulated Retail Location 8,Visakhapatnam,Zone-7,10:00,20:00,1251,True
+STR0009,Food Street,Supermarket,17.71301,83.196653,Simulated Retail Location 9,Visakhapatnam,Zone-5,09:00,22:00,2004,True
+STR0010,Daily Needs,Coffee Shop,17.697333,83.232085,Simulated Retail Location 10,Visakhapatnam,Zone-8,09:00,20:00,602,True
+STR0011,Brew House,Fashion,17.707447,83.213472,Simulated Retail Location 11,Visakhapatnam,Zone-3,09:00,22:00,977,True
+STR0012,Market Square,Electronics,17.675162,83.245114,Simulated Retail Location 12,Visakhapatnam,Zone-8,09:00,20:00,905,True
+STR0013,Green Basket,Restaurant,17.724456,83.234521,Simulated Retail Location 13,Visakhapatnam,Zone-6,08:00,22:00,3971,True
+STR0014,Royal Restaurant,Restaurant,17.71825,83.203489,Simulated Retail Location 14,Visakhapatnam,Zone-5,09:00,20:00,3750,True
+STR0015,Coffee Corner,Restaurant,17.709071,83.245081,Simulated Retail Location 15,Visakhapatnam,Zone-6,10:00,21:00,3635,True
+STR0016,Trend Store,Restaurant,17.662371,83.242881,Simulated Retail Location 16,Visakhapatnam,Zone-6,08:00,21:00,2578,True
+STR0017,Mega Mart,Fashion,17.684138,83.209498,Simulated Retail Location 17,Visakhapatnam,Zone-1,09:00,20:00,3726,True
+STR0018,Digital Plaza,Coffee Shop,17.650304,83.201566,Simulated Retail Location 18,Visakhapatnam,Zone-2,08:00,21:00,1225,True
+STR0019,Urban Bites,Electronics,17.659143,83.2331,Simulated Retail Location 19,Visakhapatnam,Zone-3,09:00,21:00,4552,True
+STR0020,Quick Shop,Fashion,17.701444,83.18968,Simulated Retail Location 20,Visakhapatnam,Zone-2,09:00,22:00,2754,True
