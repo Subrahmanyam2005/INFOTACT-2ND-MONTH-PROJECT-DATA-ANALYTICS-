@@ -1,0 +1,101 @@
+# GeoPulse – Week 1 Progress Report
+
+## Topic: GPS Dataset Understanding, Profiling and Initial Data Validation
+
+### 1. Introduction
+
+During Week 1, I focused on understanding the datasets used in the GeoPulse project. The main objective was to examine the structure of the GPS movement data and store reference data and perform initial data-quality checks.
+
+This activity is important because reliable input data is required before performing geospatial analysis and retail intelligence operations.
+
+### 2. Dataset Understanding
+
+The project uses two primary datasets:
+
+**A. GPS Pings Dataset – `gps_pings.csv`**
+
+- Contains approximately 100,000 simulated GPS records.
+- Represents GPS movements from approximately 1,000 devices.
+- Each device is expected to contain 100 GPS pings.
+- Contains location coordinates, timestamps, movement information and device details.
+- Includes 18 columns such as DeviceID, SessionID, Latitude, Longitude, Timestamp, SpeedKmh, MovementMode and AccuracyMeters.
+
+**B. Store Dataset – `stores.csv`**
+
+- Contains 20 simulated retail store records.
+- Includes store identification, store category, geographic coordinates and operating details.
+- Contains 12 columns such as StoreID, StoreName, StoreCategory, Latitude, Longitude, OpeningTime and ClosingTime.
+
+### 3. Tools and Technologies Used
+
+- Python
+- Pandas
+- Visual Studio Code
+- CSV datasets
+
+### 4. Work Completed During Week 1
+
+**Task 1: GPS Dataset Profiling**
+
+I developed a Python script to examine the GPS dataset. It identifies the total number of records, column names, data types, missing values and unique values.
+
+I also examined the distribution of movement modes, device types and location types.
+
+**Task 2: GPS Data Validation**
+
+I developed validation checks to identify possible data-quality problems, including:
+
+- Missing values in important columns.
+- Duplicate GPS ping records.
+- Invalid latitude and longitude values.
+- Coordinates outside the simulated geographical boundary.
+- Unexpected speed, heading, accuracy and altitude values.
+- Invalid timestamp formats.
+- Unexpected movement mode categories.
+- Devices with a different number of GPS records than expected.
+
+**Task 3: Store Dataset Validation**
+
+I examined the store reference dataset and created checks for missing information, duplicate StoreIDs, invalid geographic coordinates and coordinates outside the simulated boundary.
+
+**Task 4: Validation Reports**
+
+I created separate CSV and text reports to store the profiling and validation results. These reports help identify issues that may need attention before further processing.
+
+### 5. Geographical Boundary
+
+The simulated GPS dataset represents an area around Visakhapatnam.
+
+- Latitude range: 17.6468 to 17.7268
+- Longitude range: 83.1785 to 83.2585
+
+The same simulated boundary is used to check GPS records and store coordinates.
+
+### 6. Expected Deliverables
+
+1. GPS dataset profiling report.
+2. GPS column information and missing-value report.
+3. GPS data validation report.
+4. Device-wise GPS ping count report.
+5. Store dataset validation report.
+6. Store category distribution report.
+
+### 7. Challenges and Observations
+
+During the initial data understanding process, I identified the importance of checking geographic coordinates, timestamps, duplicate records and missing values before performing spatial operations.
+
+Another important consideration is that the store coordinates are simulated. Therefore, they should be treated as reference points for project analysis rather than verified real-world store locations.
+
+### 8. Conclusion
+
+In Week 1, I focused on understanding the GPS movement and store datasets and preparing them for further analysis. Python and Pandas were used to develop profiling and validation scripts.
+
+These activities establish the foundation for the next phase of GeoPulse, which will focus on geospatial analysis, store catchment areas and GPS-to-store mapping.
+
+### 9. Next Week's Plan
+
+- Understand geographic coordinate systems.
+- Create 500-meter store catchment areas.
+- Perform GPS-to-store spatial mapping.
+- Identify GPS records falling within store catchment areas.
+- Prepare initial geospatial analysis outputs.
