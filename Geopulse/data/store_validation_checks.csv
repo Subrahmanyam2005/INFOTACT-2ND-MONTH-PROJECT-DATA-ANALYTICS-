@@ -1,0 +1,5 @@
+check,issue_count,status
+Missing values in required columns,0,PASS
+Duplicate StoreID,0,PASS
+Invalid/missing coordinates,0,PASS
+Coordinates outside simulated boundary,0,PASS
