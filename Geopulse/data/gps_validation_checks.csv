@@ -1,0 +1,13 @@
+check,issue_count,status,note
+Missing values in required columns,0,PASS,Rows with at least one missing required value
+Duplicate PingID,0,PASS,Rows participating in duplicate PingID values
+Duplicate full rows,0,PASS,
+Invalid/missing latitude or longitude,0,PASS,
+Coordinates outside simulated boundary,0,PASS,"Expected lat 17.6468-17.7268, lon 83.1785-83.2585"
+AccuracyMeters outside plausible validation range,0,PASS,Accepted screening range: 0 to 1000; review exceptions
+SpeedKmh outside plausible validation range,0,PASS,Accepted screening range: 0 to 200; review exceptions
+HeadingDegrees outside plausible validation range,0,PASS,Accepted screening range: 0 to 360; review exceptions
+AltitudeMeters outside plausible validation range,0,PASS,Accepted screening range: -500 to 9000; review exceptions
+Timestamp parse failures,0,PASS,
+Rows with timestamp outside November 2026 simulation week,509,WARNING,Expected timestamps from 2026-11-02 through 2026-11-08
+Unknown MovementMode values,0,PASS,"Expected categories: ['Cycling', 'Driving', 'Stationary', 'Walking']"
