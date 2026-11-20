@@ -1,0 +1,1 @@
+PingID,DeviceID,SessionID,Latitude,Longitude,Timestamp,AccuracyMeters,SpeedKmh,HeadingDegrees,AltitudeMeters,DeviceType,MovementMode,LocationType,EventDate,HourOfDay,DayOfWeek,IsWeekend,DataSource
