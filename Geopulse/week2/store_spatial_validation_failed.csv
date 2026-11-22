@@ -1,0 +1,1 @@
+StoreID,StoreName,StoreCategory,Latitude,Longitude,Address,City,Neighborhood,OpeningTime,ClosingTime,StoreAreaSqFt,IsActive,UTM_X,UTM_Y,geom_wkt,Check_Missing_Values,Check_Geographic_Range,Check_Project_Boundary,Check_UTM_Coordinates,Check_Unique_ID,Check_WKT_Geometry,Check_UTM_Transformation,ValidationStatus,ValidationIssues
